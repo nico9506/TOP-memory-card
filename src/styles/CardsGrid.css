@@ -1,0 +1,33 @@
+.cards-grid {
+  width: 90%;
+  max-width: 800px;
+  height: 30vw;
+  max-height: 350px;
+  /*border: 1px solid white;*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-grid > div {
+  /*box-shadow: inset 1px 1px 4px white;*/
+  width: 20%;
+  min-width: 100px;
+  height: 50%;
+  min-height: 100px;
+}
+
+@media (max-width: 600px) {
+  .cards-grid {
+    height: 60vh;
+    min-height: 500px;
+  }
+
+  .cards-grid > div {
+    width: 35%;
+    height: 20%;
+    min-width: 100px;
+    min-height: 100px;
+  }
+}

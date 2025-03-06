@@ -1,11 +1,14 @@
+import CardsGrid from "./components/CardsGrid";
 import Footer from "./components/Footer";
+import GameInfo from "./components/GameInfo";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <h1>Hello world!</h1>
+      <GameInfo></GameInfo>
+      <CardsGrid></CardsGrid>
       <Footer></Footer>
     </>
   );
