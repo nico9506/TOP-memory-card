@@ -1,10 +1,6 @@
-import { useState } from "react";
 import "../styles/GameInfo.css";
 
-const GameInfo = () => {
-  const [score, setScore] = useState(0);
-  const [maxScore, setMaxScore] = useState(0);
-
+const GameInfo = ({ score, maxScore }) => {
   return (
     <div className="gameInfo">
       <h2>
